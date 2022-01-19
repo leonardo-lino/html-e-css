@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .back{
+            background-color: grey;
+            color: white;
+        }
+        .col1{
+            background-color: grey;
+        }
+        .colResto{
+            background-color: honeydew;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="col1">
+            <col class="colResto" span="3">
+            
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>48</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>55</td>
+            <td>Agricultor</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>M</td>
+            <td>14</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Lucrécio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Assaltante</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

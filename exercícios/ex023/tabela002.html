@@ -12,6 +12,14 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            background-color: lightgrey;
+            border: 1px solid black;
+            height: 50px;
+            margin: auto;
+            padding-top: 30px;
         }
         th, td{
             border: 1px solid black;
@@ -20,6 +28,11 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:grey ;
         }
         .num{
             text-align: right;
@@ -30,6 +43,7 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>Dados demográficos brasileiros</caption>
         <thead>
             <tr>
                 <th>Estado</th>

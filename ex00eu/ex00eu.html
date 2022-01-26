@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: "hermes";
+            src: url(fontes/JMH\ Hermes\ 3000.ttf);
+        }
+        :root{
+            --fonte1: "hermes";
+            --amarelo: #FFB715;
+            --marrom: #402E05;
+            --vermelho: red;
+        }
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: blanchedalmond;
+        }
+        #topo{
+            text-align: center;
+        }
+        #ptitulo{
+            font-size: 20px;
+        }
+        #frasetopo{
+            max-width: 600px;
+            margin: auto;
+        }
+        nav > a{
+            padding-left: 10px;
+            text-decoration: none;
+        }
+        #divvideo{
+           
+            background-color: red;
+            border-radius: 10px;
+            width: 570px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+            
+    
+        }
+        #divvideo > iframe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+            
+        }
+        .botao{
+            margin: 0 auto;
+            background-color: yellow;
+            width: 450px;
+            height: 40px;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 10px;
+            
+            
+           
+            
+        }
+        .botao:hover{
+            
+            width: 750px;
+            height: 80px;
+
+        }
+        #textobotao{
+            padding-top: 50px;
+            text-align: center;
+            padding: 5px;
+            
+        }
+        #payments{
+            display: block;
+            margin: 0 auto;
+            background-color: black;
+            max-width: 720px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+
+        }
+        #div1{
+            background-color: cadetblue;
+            padding-bottom: 50px;
+        }
+        #h11{
+            text-align: center;
+            font-size: large;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        #p1{
+            text-align: center;
+            font-weight: bold;
+            font-size: xx-large;
+            max-width: 800px;
+            display: block;
+            margin: 0 auto;
+
+        }
+        .ppadrao{
+            display: block;
+            margin: 0 auto;
+            width: 600px;
+            max-width: 700px;
+            text-align: center;
+
+
+        }
+        .ppadrao2{
+            display: block;
+            margin: 0 auto;
+            width: 600px;
+            max-width: 700px;
+            text-align: center;
+            padding-top: 15px;
+
+
+        }
+        #div2{
+            text-align: center;
+        }
+        #div2 > div{
+            background-color: cornflowerblue;
+            display: inline-block;
+
+        }
+        #divtexto1{
+            width: 350px;
+            padding: 10px;
+            display: block;
+            margin: 0 auto;
+            position: right center;
+            
+        }
+        .div3{
+            display: inline-block;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #caixinhas{
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 3px;
+            padding: 3px;
+            
+            
+        }
+        #caixinhas > img{
+            border: 3px solid red;
+            border-radius: 40px;
+            
+            
+
+        }
+        #caixinhas > p{
+            text-align: left;
+            padding-left: 10px;
+        }
+        #caixinhas > ul > li > p{
+            text-align: left;
+        }
+        #caixinhas > ul > li{
+            list-style-type: unset;
+            
+        }
+
+
+
+        .vermelho{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="topo">
+            <img src="imagens/logo300x300.png.png" alt="">
+            <p id="ptitulo">Manual da Hamburgueria</p>
+            <p id="frasetopo">O guia em vídeo aula para você faturar alto vendendo de sua casa! Todos os detalhes mastigados para você, mesmo que você não saiba nada sobre hamburguer artesanal!</p>
+            <div>
+                <nav>
+                    <a href="">Início</a>
+                    <a href="">Outros Cursos</a>
+                    <a href="">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div id="divvideo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cZHAaE9Vm0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+        </div>
+        <div class="botao"><p id="textobotao">Quero começar o curso agora</p></div>
+        <div id="payments">
+            <picture>
+                <source media="(max-width: 700px)" srcset="imagens/payments-esse.png">
+                <img src="imagens/payments-logo-menor.png" alt="formas de pagamento">
+            </picture>
+        </div>
+        <div id="div1">
+            <h1 id="h11">Curso de Hamburguer artesanal</h1>
+            <p id="p1"><span class="vermelho">CURSO EM VÍDEO AULAS</span> PRÁTICAS E PASSO A PASSO <span class="vermelho">COM CERTIFICADO INCLUSO</span></p>
+            <p class="ppadrao">Aprenda com aulas em alta definição todos os bastidores para você fazer o melhor Hambúrguer Artesanal.</p>
+            <p class="ppadrao">Você vai ter em mãos um conteúdo extremamente completo!</p>
+            <p class="ppadrao2">Além de dominar os principais blends, você também vai ter acesso a diversas receitas, molhos, temperos, acompanhamentos e dicas para você se <strong>tornar um profissional capacitado</strong>.</p>
+        </div>
+        <div id="div2">
+            <p>PARA QUEM RECOMENDAMOS O CURSO?</p>
+            <div id="divimg1">
+                <img src="imagens/burguer.png" alt="">
+            </div>
+            <div id="divtexto1">
+                <ul>
+                    <li>
+                        <p>
+                            ESTÁ INICIANDO
+                        </p>
+                        <p>Se você deseja aprender do ZERO a fazer os melhores hambúrgueres da sua região e se destacar como um profissional da área.
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>JÁ POSSUI EXPERIÊNCIA
+                        </p>
+                        <p>Para você que deseja aprimorar suas técnicas e conhecimentos e encantar seus clientes com hambúrgueres cada vez melhores.                            
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>INGRESSAR NO RAMO
+                        </p>
+                        <p>Se você deseja abrir sua Hamburgueria ou delivery esse é um conteúdo essencial pra você.                            
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="div3">
+            <p>O QUE VOCÊ VAI APRENDER:</p>
+            <P>VEJA O QUE TE ESPERA NO CURSO</P>
+            <div id="caixinhas">
+                <img src="imagens/modulo-23-pqn.png" alt="">
+                <p>Módulo 1</p>
+                <ul>
+                    <li>
+                        <p>
+                            Bem vindo(a) ao Curso de Hambúrguer Artesanal
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div id="caixinhas">
+                <img src="imagens/modulo-23-pqn.png" alt="">
+                <p>Módulo 2</p>
+                <ul>
+                    <li>
+                        <p>
+                            Curso de Hambúrguer Artesanal - Livro Digital Completo
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div id="caixinhas">
+                <img src="imagens/modulo-23-pqn.png" alt="">
+                <p>Módulo 3</p>
+                <ul>
+                    <li>
+                        <p>
+                            Conhecendo os Utensílios Básicos bla
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div id="caixinhas">
+                <img src="imagens/modulo-23-pqn.png" alt="">
+                <p>Módulo 4</p>
+                <ul>
+                    <li>
+                        <p>
+                            Corte da Carne Moagem e Dicas blabla
+                        </p>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div id="caixinhas">
+                <img src="imagens/modulo-23-pqn.png" alt="">
+                <p>Módulo 5</p>
+                <ul>
+                    <li>
+                        <p>
+                            Blend Peito Acém Fraldinha e Toucinho
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div id="caixinhas">
+                <img src="imagens/modulo-23-pqn.png" alt="">
+                <p>Módulo 6</p>
+                <ul>
+                    <li>
+                        <p>
+                            Peso do Hambúrguer blablablablabla
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <p>E MUITO, MUITO MAIS</p>
+        </div>
+
+        
+
+        
+    </body>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

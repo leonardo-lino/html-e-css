@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+    <h1>Cadastro da liga dos astronautas</h1>
+    <form action="">
+        <label for="fname">Nome</label>
+        <input type="text" name="fname">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email"> 
+        <label for="passw">Senha</label>
+        <input type="password" name="passw" id="passw">
+        <br>
+        <label for="datanasc">Data de nascimento</label>
+        <input type="date">
+        <br>
+        <label for="foto">Foto</label>
+        <input type="file">
+        <br>
+        <label for="nacionalidade">Nacionalidade</label>
+        <input list="nacionalidades">
+        <datalist id="nacionalidades">
+            <option value="Brasileiro"></option>
+            <option value="Boludo"></option>
+            <option value="Macaquito litcho"></option>
+            <option value="Paraguayo pendejito"></option>
+        </datalist>
+        <br>
+        <p>Gênero</p>
+        <input type="radio" name="genero" value="masculino" checked> Male <br>
+        <input type="radio" name="genero" value="Feminino">Feminino <br>
+        <input type="radio" name="genero" value="veveco">Veveco <br>
+        <br>
+        <p>Suas principais qualidade:</p>
+        <input type="checkbox" name="Forte" value="forte"> Forte 
+        <input type="checkbox" name="inteligente" value="inteligente"> Inteligente
+        <input type="checkbox" name="antigordola" value="antigordola"> Antigordola <br>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Pq você gostaria de ser um astronauta?"></textarea>  ><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    
+</body>
+</html>

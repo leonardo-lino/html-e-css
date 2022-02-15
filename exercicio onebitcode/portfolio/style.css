@@ -1,0 +1,21 @@
+.navbar{
+    margin-bottom: 40px;
+}
+.card{
+    margin-bottom: 20px;
+}
+
+#esse:hover{
+    background-color: #F7E018;
+    font-weight: bold;
+}
+#esse2:hover{
+    background-color: #3A76A7;
+    font-weight: bold;
+    color: #FFE15E;
+}
+#esse3:hover{
+    background-color: #0D8AC7;
+    font-weight: bold;
+    color: #EC2025;
+}

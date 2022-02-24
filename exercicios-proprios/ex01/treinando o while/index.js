@@ -10,4 +10,4 @@ while(op == "1"){
     op = prompt("Quer mais uma dose?\n\n1 - sim\n2 - não")
 
 }
-alert(name + ", você bebeu " + doses + "doses")
+alert(name + ", você bebeu " + doses + " doses")
